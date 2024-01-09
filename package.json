@@ -1,0 +1,17 @@
+{
+  "name": "mcpkg",
+  "version": "0.0.1",
+  "author": "christianjanev",
+  "repository": "christianjanev/mcpkg",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "bun src/index.ts"
+  },
+  "type": "module"
+}
